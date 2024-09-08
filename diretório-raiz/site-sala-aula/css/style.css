@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
+
 
 .emc{
     font-size:200%;
@@ -14,58 +15,57 @@
     -webkit-text-fill-color: transparent;
 }
 
+.emb{
+    font-size:200%;
+    margin-top: 5%;
+    margin-left: -5%;
+    text-align: center;
+    background: -webkit-linear-gradient(#ffffff, #CC2828);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .divcartaz{
-    width: 15%;
-    height: 10%;
     border-radius: 15%;
     max-width: 1024px;
-    margin: 0 auto;
-    margin-top: 10vh;   
+    margin: 0 auto;  
     align-items: center;
-    margin-left: 10%;
+    margin-left: 3%;
     gap: 10px;
+
 }
 
 .eaqacartaz{
-    width: 15%;
-    height: 10%;
     border-radius: 15%;
     max-width: 1024px;
-    margin: 0 auto;
-    margin-top: 10vh;
+    margin: 0 auto; 
     align-items: center;
     margin-left: 5%;
-    margin-top: -80%;
-    right: 10%;
     gap: 10px;
+    
 }
 
 .deadpool{
-    width: 15%;
-    height: 10%;
     border-radius: 15%;
     max-width: 1024px;
     margin: 0 auto;
-    margin-top: 10vh;
     align-items: center;
     margin-left: 5%;
-    margin-top: -80%;
+    margin-top: -70%;
     right: 10%;
     gap: 10px;
+   
 }
 
 .mmf4{
-    width: 15%;
-    height: 10%;
     border-radius: 15%;
     max-width: 1024px;
-    margin: 0 auto;
-    margin-top: 30vh;
+    margin: 0 auto;  
     align-items: center;
-    margin-left: 70%;
-    margin-top: -80%;
-    right: 10%;
+    margin-left: 75%;
+    margin-top: -90vh;
     gap: 10px;
+   
 }
 @media (max-width: 768px) {
     .desc {
@@ -97,6 +97,7 @@
     box-shadow: 0 0 10px 5px #2c2c2c;
 }
 
-.social-icon{
-    width: 10%;
+img{
+    min-width: 10%;
+    max-width: 100%;
 }

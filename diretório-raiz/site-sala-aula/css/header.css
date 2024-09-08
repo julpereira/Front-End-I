@@ -27,7 +27,9 @@ nav ul li a{
     padding: 10px 20px;
     text-decoration: none;
     font-size: 19px;
-    color: rgb(255, 255, 255);
+    background: -webkit-linear-gradient(#ffffff, #CC2828);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border-radius: 30px;
     transition: 0.6s;
 

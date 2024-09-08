@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
 }
-.cointainer{
-    background-color: #fff;
+.footer{
+    background-color: #000000;
 }
 
+.git{
+    width: 3%;
+    margin-left: 22%;
+}
 
-
+.insta{
+    width: 3%;
+    
+}
