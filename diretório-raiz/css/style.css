@@ -56,3 +56,7 @@ tbody a {
     font-size: 14px; 
 }
 }
+img{
+    min-width: 10%;
+    max-width: 100%;
+}

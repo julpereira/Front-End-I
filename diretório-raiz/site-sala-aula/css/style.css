@@ -25,59 +25,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.divcartaz{
-    border-radius: 15%;
-    max-width: 1024px;
-    margin: 0 auto;  
-    align-items: center;
-    margin-left: 3%;
-    gap: 10px;
-
-}
-
-.eaqacartaz{
-    border-radius: 15%;
-    max-width: 1024px;
-    margin: 0 auto; 
-    align-items: center;
-    margin-left: 5%;
-    gap: 10px;
-    
-}
-
-.deadpool{
-    border-radius: 15%;
-    max-width: 1024px;
-    margin: 0 auto;
-    align-items: center;
-    margin-left: 5%;
-    margin-top: -70%;
-    right: 10%;
-    gap: 10px;
-   
-}
-
-.mmf4{
-    border-radius: 15%;
-    max-width: 1024px;
-    margin: 0 auto;  
-    align-items: center;
-    margin-left: 75%;
-    margin-top: -90vh;
-    gap: 10px;
-   
-}
-@media (max-width: 768px) {
-    .desc {
-        font-size: 1rem;
-        border-width: 0.2rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .menu li {
-        margin-right: 0.5rem;  
-    }
+.links{
+    flex-direction: column-reverse;
 }
 
 .divcartaz:hover {
