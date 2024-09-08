@@ -133,6 +133,7 @@ body, text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .container{
     display: flex;
     justify-content: center;
@@ -144,7 +145,7 @@ body, text{
 .form_box{
     display: flex;
     flex-direction: column;
-    background-color: #ffc0e3;
+    background-color: #fddede;
     border-radius: 8px;
     width: 700px;
     align-items: center;
@@ -156,7 +157,9 @@ body, text{
 .form_box .title{
     padding: 24px 32px;
     font-size: 24px;
-    border-bottom: thin solid #ccc;
+    background: -webkit-linear-gradient(#afaeae, #ff008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .form_box form{
@@ -171,10 +174,11 @@ body, text{
     width: calc(50% - 8px);
     height: 48px;
     border-radius: 8px;
-    border: thin solid #999;
+    border: thin solid #ff008c;
     padding-left: 16px;
     margin-bottom: 16px;
     font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .form_box input:first-child{
@@ -198,7 +202,7 @@ body, text{
     width: 180px;
     height: 48px;
     border-radius: 8px;
-    background-color: #ff008c;
+    background-color: #ff83a8;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
