@@ -1,0 +1,67 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 12%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.logo{
+     width: 5%;
+     color: white;
+     font-weight: 600;
+     transition: 0.3s ease;
+}
+
+.logo:hover{
+    color: #ffffff;
+    text-shadow: 0 0 25px#ff008c,
+                0 0 50px#ff008c;
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    background: -webkit-linear-gradient(#afaeae, #ff008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #ff008c;
+    border-bottom:  3px solid #ff008c;
+    
+}
+
+.contato{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3 ease;
+    background: -webkit-linear-gradient(#afaeae, #ff008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contato:hover{
+    background-color: #ff008c;
+    box-shadow:  0 0 25px#ff008c ;
+    color: white;
+}
