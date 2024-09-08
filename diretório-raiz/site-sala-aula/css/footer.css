@@ -1,17 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 .footer{
-    background-color: #000000;
+    background-color:#ffffff;
+    padding: 2px;
+}
+  
+.footer .social {
+    text-align:center;
+    padding-bottom:35px;
+    margin-top: 10%;
+}
+  
+.footer .social > a {
+    width:70px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer .social > a:hover {
+    opacity:0.9;
+}
+  
+.footer .copyright {
+    margin-top:10px;
+    text-align:center;
+    color:#000000;
+    margin-bottom:0;
+  
 }
 
-.git{
-    width: 3%;
-    margin-left: 22%;
-}
-
-.insta{
-    width: 3%;
-    
+.imgso{
+    width: 2%;
 }
