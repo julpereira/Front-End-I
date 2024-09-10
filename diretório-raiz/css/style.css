@@ -1,44 +1,49 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-  
+ 
 main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 }
-  
+ 
+
 
 table{
-    width: 30%; 
+    width:40%;
     border-collapse: collapse;
     margin: 10px auto;
-    font-size: 1rem; 
+    font-size: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 thead th{
     color: #000000;
     background-color:#ff008c;
 }
 
+
 tbody a:hover {
     text-decoration: underline;
     color: rgb(41, 41, 41);
 }
 
+
 tbody tr:nth-child(even) {
     background-color: #ffffff;
 }
-    
+   
 tbody tr:hover {
     background-color: #ffffff;
 }
+
 
 tbody td {
     padding: 12px;
@@ -46,16 +51,26 @@ tbody td {
     text-align: left;
 }
 
+
 tbody a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
-    
-@media (max-width: 768px){
+   
+@media (max-width: 1025px){
     table th, table td{
-    font-size: 14px; 
+    font-size: 14px;
 }
+    img{
+        min-width: 10%;
+        height: auto;
+        max-width: 100%;
+    }
+    .footer{
+        margin-top: 90%;
+        border: 2% solid #ff008c;
+    }
 }
 img{
     min-width: 10%;
@@ -63,17 +78,18 @@ img{
     max-width: 100%;
 }
 
+
 .footer{
     padding:40px 0;
     background-color:#ffffff;
     margin-top: 6   rem;
 }
-  
+ 
 .footer .social {
     text-align:center;
     padding-bottom:25px;
 }
-  
+ 
 .footer .social > a {
     font-size:24px;
     width:40px;
@@ -85,11 +101,11 @@ img{
     color:inherit;
     opacity:0.75;
 }
-  
+ 
 .footer .social > a:hover {
     opacity:0.9;
 }
-  
+ 
 .footer .copyright {
     margin-top:15px;
     text-align:center;
@@ -97,4 +113,3 @@ img{
     color:#ff008c;
     margin-bottom:0;
 }
-

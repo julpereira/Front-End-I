@@ -130,3 +130,15 @@ img{
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width: 1025px) {
+.links, .linksemb{
+    display: flex;
+    width: 80%;  
+    margin-left: 10%;}
+
+.form_box{
+    width: 40%;}
+
+
+}

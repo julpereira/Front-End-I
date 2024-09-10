@@ -1,33 +1,32 @@
 .footer {
     background-color: #ffffff;
-
+    padding: 10px;
 }
 
-.coluna {
-    margin: 10px 10px 0;
-    width: 120px;
+
+.footer .social {
     text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    margin-left: 39%;
 }
 
-.coluna ul {
-    border-top: 2px solid rgb(255, 255, 255);
+.footer .social > a:hover {
+    opacity: 0.9;
 }
 
-.coluna a {
-    color: black;
+.imgso {
+    width: 0.1%;
 }
-.coluna li {
-    margin-top: 5px;
+
+.social{
+    width: 20%;
+    color: #CC2828;
 }
-.coluna:hover {
-    color: black;
-}
-.coluna a:hover {
-    font-weight: bold;
-    color: black;
-}
-@media only screen and (max-width:767px) {
-    .coluna {
-        margin: 15px 10px;
+
+@media (max-width: 1025px) {
+    .social{
+       width: 30%;
     }
+
 }
