@@ -16,7 +16,11 @@ ancora.style.fontWeight = 'bold';
 ancora.style.fontSize = '40px';
 ancora.style.fontFamily = 'Franklin Gothic Medium', 'Arial Narrow';
 ancora.textContent= 'IFRO';
+
 body.appendChild(ancora);
+body.style.background  = '#b0b0b08c';
+
+
 
 const lista = document.createElement('ul');
 const item1 = document.createElement('li');
