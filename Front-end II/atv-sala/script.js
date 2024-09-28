@@ -1,22 +1,45 @@
 const itensMenu = [
     { nome: 'Início', url: 'index.html'},
-    { nome: 'Sobre', url: 'sobre.html'},
-    { nome: 'Conato', url:'contato.html'}
+    { nome: 'Sobre', url: '#'},
+    { nome: 'Contato', url:'#'}
 ];
 
-
-const body = document.createElement('header');
-const header = document.createElement('nav');
-const nav = document.createElement('ul');
+function criarMenu() {
+const header = document.createElement('header');
+const nav = document.createElement('nav');
+const ul = document.createElement('ul');
+ 
+header.appendChild(nav);
+nav.appendChild(ul);
 
 itensMenu.forEach(item => {
-    item.nome
-})
+const li = document.createElement('li');
+const a = document.createElement('a');
+a.href = item.url;
+a.textContent = item.nome.toUpperCase();
+a.style.textDecoration = 'none';
+a.style.color = 'white';
+li.appendChild(a);
+ul.appendChild(li);
+});
 
-const inicio = document.createElement('li');
-const sobre = document.createElement('li');
-const contato = document.createElement('li');
+document.body.appendChild(header);
+}
 
-inicio.textContent = 'Início';
-sobre.textContent = 'Sobre';
-contato.textContent = 'Contato';
+function estilizarMenu() {
+const header = document.querySelector('header');
+const nav = document.querySelector('nav');
+const ul = document.querySelector('ul');
+
+header.style.backgroundColor = '#071D41';
+header.style.fontFamily = 'Arial';
+ul.style.height = '40px';
+ul.style.display = 'flex';
+ul.style.justifyContent = 'center';
+ul.style.alignItems = 'center';
+ul.style.gap = '20px';
+ul.style.listStyleType = 'none';
+}
+
+criarMenu();
+estilizarMenu();
